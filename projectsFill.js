@@ -12,7 +12,7 @@ projects.forEach(project => {
     <img src="./images/${project.image}" alt="image">
 
 
-    <a href="/projects_pages/${project.html}"  class="button">${project.description}</a>
+    <a href="./projects_pages/${project.html}"  class="button">${project.description}</a>
     </div>
     `
     )
