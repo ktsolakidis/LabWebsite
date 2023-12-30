@@ -10,7 +10,7 @@ fundings.forEach(fund => {
 
     fundingsContainer.insertAdjacentHTML('beforeend',
         `  <div class="funding">
-                <img  src="images/fundings/${fund.img}" alt="Fund Image">
+                <img  src="./images/fundings/${fund.img}" alt="Fund Image">
             </div>`
 
     )

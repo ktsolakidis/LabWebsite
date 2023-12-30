@@ -12,7 +12,7 @@ news.forEach( newsUnit => {
     `<div class="news--card hidden">
     ${newsUnit?.image ?
     `<div class="img--div">
-        <img src="/images/news/${newsUnit.image}" alt="News image">
+        <img src="./images/news/${newsUnit.image}" alt="News image">
     </div>` : ''
     }
     

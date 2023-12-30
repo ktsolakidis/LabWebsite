@@ -1,4 +1,4 @@
-import { members } from '/data/members.js'
+import { members } from './data/members.js'
 
 
 
@@ -47,7 +47,7 @@ members.forEach(member => {
 
     membersContainer.insertAdjacentHTML('beforeend',
             `<div class="member--card hidden">
-            <img class="member--pic" src="/images/team/${member.img}" alt="">
+            <img class="member--pic" src="./images/team/${member.img}" alt="">
             <p class="member--name">${member.name}</p>
             <p class="member--desc">${member.desc}</p>
             ${ memberMedia.length > 90 ? memberMedia : ''}

@@ -10,7 +10,7 @@ pictures.forEach(pic => {
     galleryContainer.insertAdjacentHTML('beforeend',
     `
 
-    <img class="hidden" src="/images/gallery/${pic.img}" alt="${pic.title}">
+    <img class="hidden" src="./images/gallery/${pic.img}" alt="${pic.title}">
     `
     )
 })
