@@ -160,7 +160,7 @@ p.text{
 
 .news--card{
     width: 80%;
-    height: 20rem;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
