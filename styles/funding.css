@@ -1,0 +1,122 @@
+#funding{
+    background-color: #ffffff;
+
+}
+
+
+
+#our--funding{
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#fundings--container{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    background-color: #ffffff;
+    padding: 2rem;
+
+}
+
+.funding{
+    align-self: center;
+    justify-self: center;
+    border-radius: 5rem;
+    background-color:white;
+    margin: 1rem;
+
+
+}
+
+
+.funding img{
+
+    width: 17rem;
+    margin: 1rem 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+
+    #funding{
+        background-color: #ffffff;
+    
+    }
+    
+    
+    
+    #our--funding{
+        font-size: 2rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    
+    #fundings--container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .funding{
+        align-self: center;
+        justify-self: center;
+        border-radius: 5rem;
+        background-color:white;
+        margin: 1rem;
+    
+    
+    }
+    
+    
+    .funding img{
+    
+        width: 8rem;
+        margin: 1rem 5rem;
+    }
+
+
+
+}

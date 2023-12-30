@@ -1,0 +1,151 @@
+#software{
+    background-color: #ffffff;
+
+}
+
+
+
+#our--software{
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    
+}
+
+
+.software--card{
+    width: 30rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(221, 221, 221);
+    box-shadow: 2px 2px 4px gray;
+}
+    
+
+.software--card img{
+    width: 12rem;
+  margin-top: 2rem;
+  height: 10rem;
+  box-shadow: 2px 2px 8px gray;
+}
+
+.software--card .title{
+    width: 12rem;
+    margin-top: 2rem;
+}
+
+
+.software--card .text{
+    width: 90%;
+}
+
+
+#software--container{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Cormorant', serif;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    padding: 2rem;
+    background-color: #7f1c1c;;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+
+    #software{
+        background-color: #ffffff;
+    
+    }
+    
+    
+    
+    #our--software{
+        font-size: 2rem;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(0, 0, 0);
+        
+    }
+    
+    
+    .software--card{
+        width: 30rem;
+        margin: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(221, 221, 221);
+        box-shadow: 2px 2px 4px gray;
+        padding: 1rem;
+    }
+        
+    
+    .software--card img{
+        width: 12rem;
+      margin-top: 2rem;
+      height: 10rem;
+      box-shadow: 2px 2px 8px gray;
+    }
+    
+    .software--card .title{
+        width: 12rem;
+        margin-top: 2rem;
+    }
+    
+    
+    .software--card .text{
+        width: 90%;
+    }
+    
+    
+    #software--container{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-family: 'Cormorant', serif;
+        background-color: #ffffff;
+        border-radius: 1rem;
+        padding: 2rem;
+        background-color: #7f1c1c;;
+    
+    }
+    
+
+
+}

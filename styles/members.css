@@ -1,0 +1,241 @@
+#members{
+    background-color:  rgba(255, 255, 255, 0.9);
+}
+
+
+#our--members{
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(30, 30, 30);
+    letter-spacing: 3px;
+}
+
+
+#members--container{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+.member--card{
+    width: 15rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    font-family: 'Sarabun', sans-serif;
+    position: relative;
+    background-color: rgba(52, 162, 209, 0.304);
+    background-color: #F2F2F1;
+    background-color: #adb4bf;
+   box-shadow: 2px 2px 4px grey;
+}
+
+.member--pic{
+    margin: 1rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+.member--name{
+    font-size: 1.1rem;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    color: rgb(239, 239, 239);
+    width: 100%;
+    background-color: #B73B37;
+    background-color: #931F1D;
+    letter-spacing: 1px;
+    margin-bottom: .2r;
+}
+
+
+.member--desc{
+    font-size: .8rem;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(234, 234, 234);
+    margin: 0;
+    margin-top: .5rem;
+    width: 100%;
+    background-color:rgba(24, 63, 117, 0.958);
+    background-color: #12355B;
+    /* background-color: #3C4461; */
+}
+
+.member--media{
+    width: 70%;
+    height: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    position: absolute; /* Set position to absolute */
+    bottom: 0; 
+    list-style-type: none;
+    color: black;
+    
+}
+
+.member--media li{
+    margin: 1rem;
+
+
+}
+
+.fa{
+    font-size: 1rem;
+    padding: .5rem;
+    border-radius: 50%;
+    color: rgb(62, 61, 61);
+    color: rgb(24, 63, 117);
+    background-color: #adb4bf;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+
+.fa:hover{
+   transform: scale(1.1);
+   background-color: #12355B;
+   color: white;
+}
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+
+    #our--members{
+        font-size: 2rem;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(30, 30, 30);
+        letter-spacing: 3px;
+    }
+    
+    
+    #members--container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    
+    
+    }
+    
+    
+    .member--card{
+        width: 10rem;
+        height: 15rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2rem;
+        font-family: 'Sarabun', sans-serif;
+        position: relative;
+        background-color: rgba(52, 162, 209, 0.304);
+        background-color: #F2F2F1;
+        background-color: #adb4bf;
+       box-shadow: 2px 2px 4px grey;
+    }
+    
+    .member--pic{
+        margin: 1rem;
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    
+    
+    .member--name{
+        font-size: .8rem;
+        font-family: 'Open Sans', sans-serif;
+        margin: 0;
+        color: rgb(239, 239, 239);
+        width: 100%;
+        background-color: #B73B37;
+        background-color: #931F1D;
+        letter-spacing: 1px;
+        margin-bottom: .2r;
+    }
+    
+    
+    .member--desc{
+        font-size: .8rem;
+        font-family: 'Open Sans', sans-serif;
+        color: rgb(234, 234, 234);
+        margin: 0;
+        margin-top: .5rem;
+        width: 100%;
+        background-color:rgba(24, 63, 117, 0.958);
+        background-color: #12355B;
+        /* background-color: #3C4461; */
+    }
+    
+    .member--media{
+        width: 70%;
+        height: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        position: absolute; /* Set position to absolute */
+        bottom: 0; 
+        list-style-type: none;
+        color: black;
+        
+    }
+    
+    .member--media li{
+        margin: 0rem;
+    
+    
+    }
+    
+    .fa{
+        font-size: 1rem;
+        padding: .5rem;
+        border-radius: 50%;
+        color: rgb(62, 61, 61);
+        color: rgb(24, 63, 117);
+        background-color: #adb4bf;
+        transition: .3s ease-in-out;
+        cursor: pointer;
+    }
+    
+    
+    .fa:hover{
+       transform: scale(1.1);
+       background-color: #12355B;
+       color: white;
+    }
+
+
+}
