@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function smoothScrollTo(targetPosition) {
         const startPosition = window.scrollY;
         const distance = targetPosition - startPosition;
-        const duration = 4000; // Adjust the duration as needed
+        const duration = 2500; // Adjust the duration as needed
         let startTimestamp;
 
         function step(timestamp) {
@@ -38,6 +38,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
         window.requestAnimationFrame(step);
     }
+
+
+    const contactUsButton = document.getElementById('contact--us')
+    const contactUsSection = document.getElementById('contact')
+
+    contactUsButton.addEventListener('click',()=>{
+        smoothScrollTo(contactUsSection.offsetTop)
+  
+    })
 
     window.addEventListener('scroll', function () {
         const currentScrollPos = window.pageYOffset;

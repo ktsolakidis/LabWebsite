@@ -92,8 +92,7 @@ ourHistoryButton.addEventListener('click',() => createPopUp('Our history.',ourHi
 
 function createPopUp(title, text) {
 
-
-    console.log('works');
+    
     body.insertAdjacentHTML('afterbegin', `
         <div id="pop--up--info">
             <p>${title}</p>
