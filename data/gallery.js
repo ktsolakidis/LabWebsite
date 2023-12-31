@@ -52,10 +52,6 @@ export const pictures = [
       title: 'Random'
     },
     {
-      img: 'nikos.jpg',
-      title: 'Random'
-    },
-    {
       img: 'alex.jpg',
       title:'Random'
     },
