@@ -19,12 +19,12 @@
     flex-direction: row;
     align-items: center;
     margin: 1rem;
-   
     font-family: 'Sarabun', sans-serif;
     background-size: cover; /* Adjust the sizing as needed */
     background-position: center; /* Adjust the positioning as needed */
     background-repeat: no-repeat;
     box-shadow: 2px 2px 4px gray;
+    background-color: rgb(199, 237, 212);
 }
 
 
@@ -35,7 +35,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
- 
+
+   
     font-family: 'Sarabun', sans-serif;
     background-size: cover; /* Adjust the sizing as needed */
     background-position: center; /* Adjust the positioning as needed */
@@ -120,7 +121,7 @@
 
 
     #projects--container{
-        width: 80%;
+        width: 100%;
         display: grid;
         grid-template-columns: auto;
         align-items: center;
@@ -136,7 +137,7 @@
         flex-direction: row;
         align-items: center;
         margin: 1rem;
-       
+
         font-family: 'Sarabun', sans-serif;
         background-size: cover; /* Adjust the sizing as needed */
         background-position: center; /* Adjust the positioning as needed */
@@ -151,7 +152,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-     
+        object-fit: cover;
         font-family: 'Sarabun', sans-serif;
         background-size: cover; /* Adjust the sizing as needed */
         background-position: center; /* Adjust the positioning as needed */

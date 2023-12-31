@@ -29,6 +29,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
             if (elapsed < duration) {
                 window.requestAnimationFrame(step);
+            } else {
+                // Scroll animation is complete, hide the header
+                header.style.display = 'none';
             }
         }
 
@@ -39,14 +42,12 @@ document.addEventListener('DOMContentLoaded', function () {
         window.requestAnimationFrame(step);
     }
 
-
     const contactUsButton = document.getElementById('contact--us')
     const contactUsSection = document.getElementById('contact')
 
-    contactUsButton.addEventListener('click',()=>{
+    contactUsButton.addEventListener('click', () => {
         smoothScrollTo(contactUsSection.offsetTop)
-  
-    })
+    });
 
     window.addEventListener('scroll', function () {
         const currentScrollPos = window.pageYOffset;
@@ -56,15 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
             header.style.display = 'flex';
         } else {
             // User has scrolled down
-
-            const scrollDistance = window.scrollY;
-
-            if (scrollDistance <= 4 * parseFloat(getComputedStyle(document.documentElement).fontSize)) {
-                // User has scrolled at least 5rem
-                header.style.display = 'flex';
-            } else {
-                header.style.display = 'none';
-            }
+            header.style.display = 'none';
         }
 
         // Update previous scroll position
@@ -72,22 +65,15 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     window.addEventListener('mousemove', function (event) {
-
-        const currentScrollPos = window.pageYOffset;
-
-
         const mouseY = event.clientY;
         const screenHeight = window.innerHeight;
         const topThreshold = screenHeight * 0.06;
 
         if (mouseY <= topThreshold) {
             header.style.display = 'flex';
-        } else if(mouseY >= topThreshold && currentScrollPos==0){
-            header.style.display = 'flex';
         }
     });
 });
-
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
